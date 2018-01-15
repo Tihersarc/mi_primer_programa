@@ -37,9 +37,8 @@ while vida_pikachu > 0 and vida_enemigo > 0:
     print("A Pikachu le queda {} de vida".format(vida_pikachu))
 
 if vida_enemigo <= 0:
-    print("¡Has ganado!")
+    print("¡Pikachu ha ganado!")
 if vida_pikachu <= 0:
-    print("¡Has perdido!")
+    print("¡{} ha ganado!".format(nombre_pokemon))
 
 print("El combate ha terminado")
-
